@@ -1,0 +1,63 @@
+$margin:auto;
+$bgNegro: black;
+$bgClaro: rgb(19, 3, 3);
+
+@mixin mix ($bg){
+    background-color: $bg;
+        width: 100%;
+        margin: auto;
+    
+}
+
+body{
+    width: auto;
+    background-color: rgb(68, 45, 45);
+    h2{
+        color: pink;
+        text-decoration: pink;
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 40px;
+    }
+    
+    h5{
+        margin-top: 20px;
+        margin-bottom: 15px;
+        color: seagreen;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        font-size: 35px;
+        
+        }
+    
+    
+    .trailers{
+        @include mix ($bgNegro);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+    }
+    .contenedorhijo{
+        margin: auto;
+        padding: auto;
+    }
+    
+    .moving{
+        display: inline-block;
+        margin: 1px;
+        border-style: groove ;
+        text-align: center;
+        transition: 100ms ease;
+    }
+    .moving:hover{
+        transform: scale(1.05);
+    }
+    .contenedor{
+        @include mix ($bgClaro);
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4,25%);
+    }
+    
+}

@@ -1,0 +1,247 @@
+body {
+  width: auto;
+  background-color: #442d2d; }
+  body h2 {
+    color: pink;
+    text-decoration: pink;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px; }
+  body h5 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: seagreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 35px; }
+  body .trailers {
+    background-color: black;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  body .contenedorhijo {
+    margin: auto;
+    padding: auto; }
+  body .moving {
+    display: inline-block;
+    margin: 1px;
+    border-style: groove;
+    text-align: center;
+    transition: 100ms ease; }
+  body .moving:hover {
+    transform: scale(1.05); }
+  body .contenedor {
+    background-color: #130303;
+    width: 100%;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 25%); }
+
+header h1 {
+  color: navajowhite;
+  text-align: center;
+  font-size: 80px;
+  font-family: 'Suez One', serif;
+  margin: 20px;
+  padding: 10px; }
+
+header .registro {
+  color: crimson;
+  position: relative;
+  left: 95%;
+  margin: auto;
+  padding: auto;
+  background-color: navajowhite; }
+
+header .color3 {
+  padding: 10px; }
+
+header ul {
+  list-style: none;
+  list-style-position: inside;
+  background-color: #532b2b; }
+  header ul li {
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    margin-left: 120px;
+    margin-bottom: 10px;
+    padding: 10px; }
+    header ul li .listas {
+      color: #bd6868;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
+      text-decoration: none; }
+    header ul li a {
+      color: navajowhite;
+      font-weight: bold;
+      text-decoration: none; }
+
+header ul li a:hover {
+  background-color: navajowhite;
+  padding: 6px; }
+
+section h3 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: springgreen;
+  font-style: italic;
+  font-size: 30px;
+  text-decoration-line: underline;
+  letter-spacing: 3px;
+  text-align: center; }
+
+section table {
+  width: 100%;
+  margin: auto; }
+  section table .centrar {
+    text-align: center; }
+  section table .colores {
+    color: chartreuse;
+    background-color: #7e5e5e; }
+  section table .color8 {
+    color: cornsilk; }
+
+section .tabla {
+  text-align: center;
+  border: #d8d0d0; }
+
+footer {
+  margin-top: 30px;
+  background: linear-gradient(to top, #055731, #0873b1);
+  font-family: Tahoma, sans-serif;
+  text-align: center;
+  padding: 5px;
+  margin: 1%; }
+  footer .logos {
+    padding: 2%; }
+
+p {
+  text-align: center; }
+
+h4 {
+  text-align: center;
+  background-color: khaki; }
+
+.cuadroColor {
+  color: lightyellow;
+  background-color: #1f1c30; }
+
+.cuadro {
+  text-align: center;
+  color: #e95b5b; }
+
+h4 {
+  color: coral;
+  font-size: 30px;
+  margin: 10px;
+  padding: 10px; }
+
+div {
+  margin: 10px;
+  padding: 10px; }
+
+.title {
+  width: auto;
+  background-color: #645959;
+  color: navajowhite;
+  font-size: 500%;
+  text-align: center;
+  font-style: oblique; }
+
+.NombrePelicula {
+  color: lightgreen;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: start; }
+
+.avances {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: radial-gradient(#473a25, #3d2705, #262b2c); }
+
+.caja {
+  width: 100%;
+  margin: auto;
+  padding: 2%;
+  text-align: center; }
+
+.sinopsis {
+  font-size: 20px;
+  font-family: 'Akaya Telivigala', cursive; }
+
+p {
+  font-size: auto;
+  margin: 4px;
+  padding: 4px;
+  color: burlywood; }
+
+.reparto {
+  margin: auto;
+  padding: 3px;
+  text-align: center; }
+
+.valor {
+  font-size: 20px;
+  color: coral; }
+
+iframe {
+  float: left; }
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: #0f4f52;
+    margin: auto;
+    padding: auto; }
+  .registro {
+    margin: auto;
+    padding: auto; }
+  ul {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+@media only screen and (max-width: 576px) {
+  body {
+    background-color: black;
+    margin: auto;
+    padding: auto; }
+  div a {
+    margin: auto; }
+    div a .registro {
+      margin-left: auto;
+      padding: auto; }
+  ul {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+@media only screen and (max-width: 360px) {
+  body {
+    background-color: black;
+    margin: auto;
+    padding: auto; }
+  div a {
+    margin: auto; }
+    div a .registro {
+      margin-left: auto;
+      padding: auto; }
+  ul {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }

@@ -1,0 +1,51 @@
+header{
+    h1{
+        color: navajowhite;
+        text-align: center;
+        font-size: 80px;
+        font-family: 'Suez One', serif;
+        margin: 20px;
+        padding: 10px;
+    }
+   
+    .registro{
+        color: crimson;
+        position: relative;
+        left: 95%;
+        margin: auto;
+        padding: auto;
+        background-color: navajowhite;
+    }
+    .color3{
+        padding: 10px;
+    }
+    ul{
+        list-style: none;
+        list-style-position: inside;
+        background-color: rgb(83, 43, 43);
+        li{
+            display: inline-block;
+            position: relative;
+            font-size: 16px; 
+            margin-left: 120px;
+            margin-bottom: 10px;
+            padding: 10px;
+            .listas{
+                color: rgb(189, 104, 104);
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-weight: bold;
+                text-decoration: none;
+            } 
+            a{
+                color: navajowhite;
+                font-weight: bold;
+                text-decoration: none;
+            }
+           }
+    }
+    ul li a:hover{
+        background-color: navajowhite;
+        padding: 6px;
+    }
+
+}

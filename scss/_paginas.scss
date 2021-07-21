@@ -1,0 +1,77 @@
+p{
+    text-align: center;
+}
+h4{
+    text-align: center;
+    background-color: khaki;
+}
+.cuadroColor{
+    color: lightyellow;
+    background-color: rgb(31, 28, 48);
+}
+.cuadro{
+    text-align: center;
+    color: rgb(233, 91, 91);
+}
+h4{
+    color: coral;
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+div{
+    margin: 10px;
+    padding: 10px;
+}
+.title{
+    width: auto;
+    background-color: rgb(100, 89, 89);
+    color: navajowhite;
+    font-size: 500%;
+    text-align: center;
+    font-style: oblique;
+}
+.NombrePelicula{
+    color: lightgreen;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.avances{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: radial-gradient(rgb(71, 58, 37), rgb(61, 39, 5),rgb(38, 43, 44));
+}
+.caja{
+    width: 100%;
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+}
+.sinopsis{
+    font-size: 20px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+p{
+    font-size: auto;
+    margin: 4px;
+    padding: 4px; 
+    color: burlywood;   
+}
+.reparto{
+    margin: auto;
+    padding: 3px;
+    text-align: center;
+}
+.valor{
+    font-size: 20px;
+    color: coral;
+}
+
+iframe{
+    float: left;
+}

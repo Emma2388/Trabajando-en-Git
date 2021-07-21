@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../estilos.css">
+    <title>Registro</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="accion.html">Accion</a>
+                </li>
+                <li>
+                    <a href="terror.html">Terror</a>
+                </li>
+                <li>
+                    <a href="drama.html">Drama</a>
+                </li>
+                <li>
+                    <a href="../estilos.css">Comedia</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="container">
+        <div class="row">
+            <h4 class="col-12 p-3 border">Registro</h4>
+        </div>
+        <div>
+            <p>Registrate para dejar comentarios acerca de las proximas pelis que se vienen, o comentarios para ayudar a la pagina.</p>
+        </div>
+        <form action="">
+            <div class="row">
+                <div class="col-5 p-1 cuadroColor">
+                    <div>
+                        <input type="text" name="nombre" placeholder="Escribe tu nombre" type="text" required>
+                    </div>
+                    <div>
+                        <input type="text" name="apellido" placeholder="Escribe tu apellido" type="text"required>
+                    </div>
+                    <div>
+                        <label for="estado civil">Estado Civil</label>
+                        <select name="estado civil" id="estado civil">
+                        <option value="soltero">Soltero</option>
+                        <option value="casado">Casado</option>
+                        </select>
+                    </div>    
+                    <div>
+                        <label for="email">Escribe email</label>
+                        <input type="email" name="email" id="email"required>
+                    </div>
+                </div>    
+                <div class="col-6 p-5 cuadroColor">                
+                    <div>
+                        <label for="usuario">Nombre de Usuario</label>
+                        <input type="usuario" id="usuario" maxlength="12" minlength="8" type="usuario"required>
+                    </div>
+                    <div>
+                        <label for="contraseña">Contraseña</label>
+                        <input type="contraseña" id="contraseña" maxlength="12" minlength="8" type="contraseña"required>
+                    </div>
+                </div>
+                <div class="col-12 p-3 cuadro">
+                    <div>
+                        <label for="consulta">Desea dejar algun comentario?🎈</label>
+                        <br>
+                        <textarea name="consulta" id="consulta" cols="60" rows="5"></textarea>
+                    </div>
+                    <div>
+                        <label for="terms"> Acepta termino y condiciones</label>
+                        <input type="checkbox" name="terms" value="1">
+                    </div>       
+                    <div>
+                        <input type="reset" value="Limpiar">
+                        <input type="submit" value="Registrar">
+                    </div>
+                </div>
+        </form>
+    </section>
+    <footer>
+        <a href="https://www.imdb.com/chart/top/?ref_=nv_mv_250" target="_blank"><img src="../imagenes/imdb.png" width="45px" height="30px" alt=""></a> <a href="https://www.instagram.com/" target="_blank"><img src="../imagenes/Intragram.png" width="30px" alt=""></a> <a href="https://www.facebook.com/" target="_blank"><img src="../imagenes/facebook.png" width="33px" alt=""></a>
+    </footer>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

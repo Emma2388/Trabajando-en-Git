@@ -1,0 +1,63 @@
+@media only screen and (max-width:768px){
+    body{
+       background-color: rgb(15, 79, 82);
+       margin: auto;
+       padding: auto;
+   }
+   .registro{
+       margin: auto;
+       padding: auto;
+   }
+   ul{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
+@media only screen and (max-width: 576px){
+   body{
+       background-color:black;
+       margin: auto;
+       padding: auto;
+   }
+   div{
+    a{
+        margin: auto;
+    .registro{
+     margin-left: auto;
+     padding: auto;
+ }
+ }
+}
+    ul{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+}
+@media only screen and (max-width: 360px){
+    body{
+        background-color:black;
+        margin: auto;
+        padding: auto;
+    }
+    div{
+    a{
+        margin: auto;
+    .registro{
+     margin-left: auto;
+     padding: auto;
+ }
+ }
+}
+    
+     ul{
+         margin: auto;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     } 
+}
+
